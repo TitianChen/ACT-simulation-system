@@ -7,10 +7,8 @@ package algorithm;
 
 import java.io.File;
 
-/**
- *
- * @author Administrator
- */
+
+
 public class FileMethod {
 
     public void FileMethod(){
