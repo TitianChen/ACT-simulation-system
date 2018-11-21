@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.5" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="berthDWTGroup">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="&#x6e2f;&#x53e3;&#x4eff;&#x771f;_&#x9648;&#x79b9;&#x5ef7;"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <AccessibilityProperties>
+    <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="CYTMainGUI"/>
+  </AccessibilityProperties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="startButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="animationButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="openOutputButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="stopButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="resetButton" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" pref="225" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="InputPanel" alignment="0" pref="477" max="32767" attributes="0"/>
+                          <Component id="Simulation" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jPanel1" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+              <Component id="Simulation" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+              <Component id="InputPanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="startButton" linkSize="12" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                  <Component id="animationButton" linkSize="12" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="openOutputButton" linkSize="12" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="stopButton" linkSize="12" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="resetButton" linkSize="12" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="Simulation">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="&#x4eff;&#x771f;&#x57fa;&#x672c;&#x53c2;&#x6570;"/>
+          </Border>
+        </Property>
+      </Properties>
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
+      </AccessibilityProperties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="realTimeLable" min="-2" pref="80" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="realTime" min="-2" pref="80" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="simulationDay" min="-2" pref="80" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="simulationDayText" min="-2" pref="80" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="speedLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="speedText" min="-2" pref="60" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="133" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="realTimeLable" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="realTime" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="simulationDay" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="simulationDayText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="speedLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="speedText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="realTimeLable">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x5f53;&#x524d;&#x65f6;&#x95f4;/min"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="speedLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x4eff;&#x771f;&#x901f;&#x5ea6;       "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="speedText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="90"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="realTime">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="text" type="java.lang.String" value="&#x672a;&#x5f00;&#x59cb;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="realTimeActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="10"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="simulationDay">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x4eff;&#x771f;&#x603b;&#x5929;&#x6570;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="simulationDayText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="110.000"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="openOutputButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x67e5;&#x770b;&#x6570;&#x636e;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="openOutputButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="startButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x5f00;&#x59cb;&#x4eff;&#x771f;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="startButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JPanel" name="InputPanel">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="&#x7801;&#x5934;&#x5e03;&#x5c40;"/>
+          </Border>
+        </Property>
+      </Properties>
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="Input"/>
+      </AccessibilityProperties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="QCTypeLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jComboBox1" min="-2" pref="124" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="QCNumPerBerthLabel" min="-2" pref="80" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="QCNumPerBerthText" min="-2" pref="68" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="blockNumText" min="-2" pref="58" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="13" pref="13" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="blockNum" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Component id="anchorageLabel" min="-2" pref="50" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="anchorageText" linkSize="6" min="-2" pref="20" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="channelLabel" min="-2" pref="50" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="channelText" linkSize="6" min="-2" pref="20" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="vehicleTypeLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jComboBox3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="yardNum" min="-2" pref="50" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="yardNumText" min="-2" pref="42" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="rowNum" linkSize="8" min="-2" max="-2" attributes="0"/>
+                              <Component id="maxAGVUnderQC" linkSize="8" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="YCTypeLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="jComboBox2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="berthLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="berthText" min="-2" pref="44" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="249" pref="249" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="maxAGVUnderQCText" linkSize="9" min="-2" pref="21" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="maxAGVPerQC" linkSize="7" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="maxAGVPerQCText" min="-2" pref="31" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="rowNumText" linkSize="9" min="-2" pref="19" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="bayNum" linkSize="7" max="32767" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="bayNumText" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="13" pref="13" max="-2" attributes="0"/>
+                          <Component id="berthDWT" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="berth3DWT" linkSize="2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="berth5DWT" linkSize="2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="berth7DWT" linkSize="2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="berth10DWT" linkSize="2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="berth15DWT" linkSize="2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="66" pref="66" max="-2" attributes="0"/>
+                          <Component id="QCNumPerBerthLabel1" min="-2" pref="80" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="berthDWT" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="berth3DWT" linkSize="3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="berth5DWT" linkSize="3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="berth7DWT" linkSize="3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="berth15DWT" linkSize="3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="berth10DWT" linkSize="3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="anchorageLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="channelLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="anchorageText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="channelText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="yardNum" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="yardNumText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="berthLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="berthText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="QCTypeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="vehicleTypeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jComboBox3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="YCTypeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jComboBox2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Component id="QCNumPerBerthLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="QCNumPerBerthLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="QCNumPerBerthText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="maxAGVUnderQC" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="maxAGVUnderQCText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="maxAGVPerQC" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="maxAGVPerQCText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="blockNum" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="blockNumText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="rowNum" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="rowNumText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bayNum" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bayNumText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="berthDWT">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x6cca;&#x4f4d;&#x8bbe;&#x8ba1;&#x5428;&#x7ea7;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="berth3DWT">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="3&#x4e07;&#x5428;&#x7ea7;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="berth3DWTActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="berth5DWT">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="5&#x4e07;&#x5428;&#x7ea7;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="berth7DWT">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="7&#x4e07;&#x5428;&#x7ea7;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="berth7DWTActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="berth10DWT">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="10&#x4e07;&#x5428;&#x7ea7;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="berth15DWT">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="15&#x4e07;&#x5428;&#x7ea7;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="anchorageLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x951a;&#x5730;&#x6570;&#x91cf;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="channelLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x822a;&#x9053;&#x7ebf;&#x6570;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="anchorageText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="3"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="anchorageTextActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="channelText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="yardNumText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="yardNum">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x5806;&#x573a;&#x6570;&#x91cf;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="berthText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="berthLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x6cca;&#x4f4d;&#x6570;&#x91cf;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="QCTypeLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x5cb8;&#x6865;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="QCNumPerBerthText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="QCNumPerBerthLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x5cb8;&#x6865;&#x6570;&#x91cf;/&#x6cca;&#x4f4d;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="QCNumPerBerthLabel1">
+        </Component>
+        <Component class="javax.swing.JLabel" name="vehicleTypeLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x6c34;&#x5e73;&#x8fd0;&#x8f93;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="maxAGVPerQC">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="AGV&#x6570;&#x91cf;/&#x5cb8;&#x6865;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="maxAGVPerQCText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="6"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="YCTypeLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x573a;&#x6865;&#x79cd;&#x7c7b;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="blockNum">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x533a;&#x6bb5;&#x6570;&#x91cf;/&#x5206;&#x5806;&#x573a;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="blockNumText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="8"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="rowNum">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x533a;&#x6bb5;&#x5bbd;/&#x96c6;&#x88c5;&#x7bb1;&#x5bbd;&#x5ea6;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="rowNumText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="7"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bayNum">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x6700;&#x5927;&#x8d1d;&#x4f4d;&#x6570;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="bayNumText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="40"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="maxAGVUnderQC">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x524d;&#x6cbf;&#x88c5;&#x5378;&#x533a;&#x8f66;&#x9053;&#x6570;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="maxAGVUnderQCText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="4"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox1">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="1">
+                <StringItem index="0" value="&#x53cc;&#x5c0f;&#x8f66;&#x53cc;20ft"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox1ActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox2">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="1">
+                <StringItem index="0" value="RMG"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="jComboBox3">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="1">
+                <StringItem index="0" value="AGV"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="&#x8239;&#x8236;&#x5230;&#x6e2f;&#x53c2;&#x6570;"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="TEU" linkSize="4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="TEUText" linkSize="11" min="-2" pref="35" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="shipDeltaTime" linkSize="4" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="gatheringPort" linkSize="4" min="-2" max="-2" attributes="0"/>
+                              <Component id="leavingPort" linkSize="4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="gatheringPortText" linkSize="11" pref="50" max="32767" attributes="0"/>
+                              <Component id="leavingPortText" linkSize="11" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="shipDeltaTimeText" linkSize="11" min="-2" pref="35" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="TEU" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TEUText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="shipDeltaTime" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="shipDeltaTimeText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="gatheringPort" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="gatheringPortText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="leavingPortText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="leavingPort" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="TEU">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x8bbe;&#x8ba1;&#x541e;&#x5410;&#x91cf;/&#x4e07;TEU"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TEUText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="120"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="shipDeltaTime">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x6765;&#x8239;&#x5e73;&#x5747;&#x95f4;&#x9694;/min"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="shipDeltaTimeText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="120"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="gatheringPort">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x6700;&#x65e9;&#x96c6;&#x6e2f;&#x65f6;&#x95f4;/min"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="gatheringPortText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="4320"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="leavingPortText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="5760"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="leavingPort">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x6700;&#x665a;&#x51fa;&#x6e2f;&#x65f6;&#x95f4;/min"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="animationButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x67e5;&#x770b;&#x52a8;&#x753b;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="animationButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x534e;&#x6587;&#x65b0;&#x9b4f;" size="18" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="66" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#x81ea;&#x52a8;&#x5316;&#x96c6;&#x88c5;&#x7bb1;&#x7801;&#x5934;&#x4eff;&#x771f;&#x7cfb;&#x7edf;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="stopButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x6682;&#x505c;&#x4eff;&#x771f;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="stopButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="resetButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x91cd;&#x7f6e;&#x53c2;&#x6570;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="resetButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="66" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x6977;&#x4f53;" size="14" style="0"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="66" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="By &#x9648;&#x79b9;&#x5ef7;"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
