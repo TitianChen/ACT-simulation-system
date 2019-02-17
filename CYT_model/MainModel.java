@@ -13,6 +13,7 @@ import parameter.OutputParameters;
  * MainModel
  * @author YutingChen, yuting.chen17@imperial.ac.uk
  * Dalian University of Technology
+ * Imperial College London
  */
 public class MainModel{
     /**
